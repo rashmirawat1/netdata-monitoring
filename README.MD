@@ -9,7 +9,7 @@ This repository contains a task focusing on installing Netdata, a free and open-
 - Gain an understanding of lightweight monitoring for servers or applications.
 
 ## Tools Used
-- *Netdata*: An open-source, real-time monitoring tool that collects metrics every second without sampling, offering high-resolution visibility into systems and applications.<grok-card data-id="8d1944" data-type="citation_card"></grok-card>
+- *Netdata*: An open-source, real-time monitoring tool that collects metrics every second without sampling, offering high-resolution visibility into systems and applications.
 - *Docker*: Used to run Netdata in a container for easy deployment and isolation.
 
 ## Steps Taken
@@ -26,13 +26,9 @@ This repository contains a task focusing on installing Netdata, a free and open-
 
 4. *Monitored Metrics*:
    - Explored sections for CPU utilization, memory usage, disk I/O, and Docker container metrics.
-   - Netdata provides 1800x more visibility with 30x more metrics per second compared to traditional tools.<grok-card data-id="d366b3" data-type="citation_card"></grok-card>
+   - Netdata provides 1800x more visibility with 30x more metrics per second compared to traditional tools.
 
-5. *Explored Alerts and Charts*:
-   - Checked the alerts section for any notifications based on anomaly detection.
-   - Interacted with chart panels to zoom, export, and analyze data.
-
-6. *Viewed Logs*:
+5. *Viewed Logs*:
    - Used docker logs netdata to inspect Netdata's logs, simulating access to /var/log/netdata.
 
 ## 📸 Screenshots
@@ -67,5 +63,5 @@ This repository contains a task focusing on installing Netdata, a free and open-
 ![Onboard](screenshots/Screenshot10.jpg)
 
 ## Outcome and Learnings
-This task provided hands-on experience with lightweight, real-time monitoring. Netdata enables quick troubleshooting by keeping data on-premises and offering AI-driven insights, reducing downtime for servers and applications.<grok-card data-id="02eb16" data-type="citation_card"></grok-card> It emphasizes simplicity, making it suitable for lean teams managing infrastructure from bare metal to multi-cloud environments.
+This task provided hands-on experience with lightweight, real-time monitoring. Netdata enables quick troubleshooting by keeping data on-premises and offering AI-driven insights, reducing downtime for servers and applications. It emphasizes simplicity, making it suitable for lean teams managing infrastructure from bare metal to multi-cloud environments.
 
